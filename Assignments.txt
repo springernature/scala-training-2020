@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+pattern matching
+-------------------
+
+Problem:
+Create a trait for Furniture with method detail which returns string.
+Implement case classes for Table, Chair, Sofa.
+using pattern matching, print the details of the input furniture type.
+
+
+Problem :
+http://aperiodic.net/phil/scala/s-99/
+
+P07 (**) Flatten a nested list structure.
+Example:
+scala> flatten(List(List(1, 1), 2, List(3, List(5, 8))))
+res0: List[Any] = List(1, 1, 2, 3, 5, 8)
