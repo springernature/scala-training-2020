@@ -34,32 +34,6 @@ matchCreature(Fish("a", 1, 2))
 
 val bird = Bird("sparrow", 5, true)
 Bird.apply("sparrow", 5, true)
-
 Bird.unapply(bird)
-
-/*trait Vehicle
-
-object Bike extends Vehicle {
-  def apply(model: String) = model
-  def unapply(arg: String): Option[(String)] = {
-    Some(arg)
-  }
-}
-
-object Truck extends Vehicle {
-  def apply(model: String, tyres:String) = model + "-" + tyres
-  def unapply(t: String): Option[(String, String)] = {
-    val values = t.split("-")
-    Some((values(0), values(1)))
-  }
-}
-
-def matchVehicle(v:Vehicle) = {
-  v match {
-    case Bike(m) => "bike of type = " + m
-    case Truck(a, b) => "truck with " +
-
-  }
-}*/
 
 
