@@ -52,3 +52,6 @@ def factorial(n: Int, acc: Int = 1) : Int = {
 }
 
 factorial(5)
+
+val i: Int = 8
+val l: Long = i
