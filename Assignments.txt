@@ -1,7 +1,10 @@
 
 
 
-
+collections
+-------------------
+attempt the initial 30 problems from below:
+Scala 99 problems - http://aperiodic.net/phil/scala/s-99/
 
 
 
