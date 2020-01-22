@@ -41,3 +41,10 @@ def getEmployee(id:Int):Option[Employee] = {
 //print the contents of employee
 
 //reimplement using Try, success and failure
+
+
+SBT
+---------
+1) scala-training project : add a class with methods,
+2) do clean compile publishLocal
+3) create new sbt test project2, import dependency of scala-training and use the method.
