@@ -57,3 +57,22 @@ Scala test
    if age is <= 0 then throw exception.
    isValidName(person:Person):boolean -- if name is empty or length less than 3 then false else true.
 Write tests on PersonService for both methods.
+
+
+
+
+
+// First class functions:
+Assignment 1: Write a program to perform basic arithmetic operations which are addition, subtraction, multiplication, and division of two numbers. Numbers are assumed to be integers and will be entered by a user.
+Note: Use first class functions in a different way in above problem(function as a parameter, return as a function, lambda expressions).
+
+
+
+// tail-recursion
+Assignment 2: A non-negative integer variable V is given. There are two actions available that modify its value:
+if V is odd, subtract 1 from it;
+if V is even, divide it by 2.
+These actions are performed until the value of V becomes 0.
+For example, if V initially contains value 28, it will become 0 after seven steps:
+so seven steps is the output.
+Write a solution using tail-recursive function
