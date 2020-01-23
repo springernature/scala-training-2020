@@ -48,3 +48,12 @@ SBT
 1) scala-training project : add a class with methods,
 2) do clean compile publishLocal
 3) create new sbt test project2, import dependency of scala-training and use the method.
+
+Scala test
+-----------
+1) Create a case class Person(name:String, age:Int)
+2) Create a class PersonService with methods
+   isRetired(person:Person):boolean  --  this should return true of false based on age.
+   if age is <= 0 then throw exception.
+   isValidName(person:Person):boolean -- if name is empty or length less than 3 then false else true.
+Write tests on PersonService for both methods.
