@@ -76,3 +76,15 @@ These actions are performed until the value of V becomes 0.
 For example, if V initially contains value 28, it will become 0 after seven steps:
 so seven steps is the output.
 Write a solution using tail-recursive function
+
+
+//play-application
+using sample play application (can use /test-play within the project), 
+1) create a home page with welcome message. (GET route = /)
+   put a link to login page in this home page. (GET route = /loginPage)
+2) the link with take user to login page having textboxes for username, password and submit button. 
+   on submit validation should happen for 
+   username (min 3 chars) and 
+   password (min 3 chars, and atleast 1 number and 1 alphabet)
+   based on validation show success or failure message on the page. also provide a link to go back home page.
+
