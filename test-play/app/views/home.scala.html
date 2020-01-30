@@ -1,0 +1,11 @@
+@import java.util.Date
+
+@(names:List[String], date:Date)
+
+@main("Welcome to Play") {
+  <h1>Welcome to Play!</h1>
+  <br>
+  <br>
+<b>how is the training going for - @names.map{name => <b>@name </b>} on date - @date</b>
+
+}
